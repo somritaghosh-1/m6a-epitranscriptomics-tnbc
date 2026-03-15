@@ -42,7 +42,7 @@
 
 This project maps the N6-methyladenosine (m6A) RNA modification landscape across 92 cancer-associated genes in MDA-231 triple-negative breast cancer (TNBC) cells, using Oxford Nanopore direct RNA sequencing with Dorado modification-aware basecalling.
 
-m6A is the most abundant internal modification on mammalian mRNA. Its effects on transcript fate — stability, translation, or degradation — depend on which reader proteins recognise it. By mapping where m6A sites cluster across transcript regions (5'UTR, CDS, 3'UTR) in a TNBC context, this analysis reveals the post-transcriptional regulatory inputs that, together with polyA tail length data from Project 1, begin to explain how MDA-231 cells maintain constitutive expression of invasion-driving proteins.
+m6A is the most abundant internal modification on mammalian mRNA. Its effects on transcript fate that is stability, translation, or degradation depends on which reader proteins recognise it. By mapping where m6A sites cluster across transcript regions (5'UTR, CDS, 3'UTR) in a TNBC context, this analysis reveals the post-transcriptional regulatory inputs that, together with polyA tail length data from Project 1, begin to explain how MDA-231 cells maintain constitutive expression of invasion-driving proteins.
 
 **Why this matters:** TNBC lacks oestrogen receptor, progesterone receptor, and HER2 amplification, making it unresponsive to targeted therapies. Understanding post-transcriptional regulation in TNBC may reveal new layers of therapeutic vulnerability.
 
