@@ -53,15 +53,15 @@ RNA sequencing experiment.
 
 ## Figures
 
-![Metagene Distribution](m6A_Fig1_Metagene_Distribution.png)
+![Metagene Distribution](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig1_Metagene_Distribution.png)
 
-![m6A Sites Per Gene](m6A_Fig2_Sites_Per_Gene.png)
+![m6A Sites Per Gene](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig2_Sites_Per_Gene.png)
 
-![Regional Breakdown by Functional Group](m6A_Fig3_Regional_By_Group.png)
+![Regional Breakdown by Functional Group](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig3_Regional_By_Group.png)
 
-![m6A vs PolyA Correlation](m6A_Fig4_m6A_vs_PolyA_Correlation.png)
+![m6A vs PolyA Correlation](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig4_m6A_vs_PolyA_Correlation.png)
 
-![Integrin Combined Profile](m6A_Fig5_Integrin_Combined.png)
+![Integrin Combined Profile](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig5_Integrin_Combined.png)
 
 ---
 
