@@ -202,5 +202,3 @@ This repository is the second of two complementary analyses:
 somritaghosh56@gmail.com  
 linkedin.com/in/somrita-ghosh-014826211  
 GitHub: github.com/somritaghosh-1  
-
-*Open to research scientist and genomics roles in the UK life sciences sector.*
