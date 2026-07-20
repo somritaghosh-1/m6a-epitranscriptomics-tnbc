@@ -43,7 +43,7 @@
  
 This project maps the N6-methyladenosine (m6A) RNA modification landscape across 92 cancer-associated genes in MDA-231 triple-negative breast cancer (TNBC) cells, using Oxford Nanopore direct RNA sequencing with Dorado modification-aware basecalling.
  
-m6A is the most abundant internal modification on mammalian mRNA. Its functional consequences — mRNA stabilisation, translation, or degradation — depend on which reader proteins recognise the modification. By mapping where m6A sites cluster across transcript regions (5'UTR, CDS, 3'UTR) in a TNBC context, this analysis reveals the post-transcriptional regulatory inputs that, together with polyA tail length data from Project 1, begin to explain how MDA-231 cells maintain constitutive expression of invasion-driving proteins.
+m6A is the most abundant internal modification on mammalian mRNA. Its functional consequences mRNA stabilisation, translation, or degradation depends on which reader proteins recognise the modification. By mapping where m6A sites cluster across transcript regions (5'UTR, CDS, 3'UTR) in a TNBC context, this analysis reveals the post-transcriptional regulatory inputs that, together with polyA tail length data from Project 1, begin to explain how MDA-231 cells maintain constitutive expression of invasion-driving proteins.
  
 **Why this matters:** TNBC lacks oestrogen receptor, progesterone receptor, and HER2 amplification, making it unresponsive to targeted therapies. It accounts for 15–20% of breast cancer diagnoses and carries the worst prognosis of any breast cancer subtype. Understanding post-transcriptional regulation in TNBC may reveal new layers of therapeutic vulnerability not accessible to standard transcriptomic approaches.
  
@@ -63,9 +63,9 @@ m6A is the most abundant internal modification on mammalian mRNA. Its functional
  
 ### Biological Highlights
  
-**3'UTR dominance with gene-level heterogeneity:** The dataset-wide 3'UTR enrichment (72.7%) is consistent with YTHDF2-mediated mRNA decay as the dominant m6A pathway in MDA-231. However, this masks substantial gene-level variation. THBS1, the most heavily modified gene (418 sites), has only 57.4% of sites in the 3'UTR with 178 CDS sites — suggesting a translation-regulatory role in addition to stability control. Similarly, MYC (30.7% 3'UTR), ABL1 (50.5%), and JUN (38.9%) carry majority CDS m6A burden, consistent with m6A-driven regulation of translation elongation rather than mRNA decay for these oncogenes.
+**3'UTR dominance with gene-level heterogeneity:** The dataset-wide 3'UTR enrichment (72.7%) is consistent with YTHDF2-mediated mRNA decay as the dominant m6A pathway in MDA-231. However, this masks substantial gene-level variation. THBS1, the most heavily modified gene (418 sites), has only 57.4% of sites in the 3'UTR with 178 CDS sites, suggesting a translation-regulatory role in addition to stability control. Similarly, MYC (30.7% 3'UTR), ABL1 (50.5%), and JUN (38.9%) carry majority CDS m6A burden, consistent with m6A-driven regulation of translation elongation rather than mRNA decay for these oncogenes.
  
-**The integrin paradox:** All six detected integrin subunits (ITGB1, ITGA1, ITGA2, ITGA3, ITGAV, ITGB5) carry significant 3'UTR m6A burden (84–100% 3'UTR fraction). Under YTHDF2-mediated decay, this predicts mRNA destabilisation and polyA shortening. Yet Project 1 shows that five of these integrins maintain above-average polyA tail lengths. This contradiction — high 3'UTR m6A burden combined with mRNA stabilisation — suggests that integrin mRNAs actively resist m6A-mediated decay, possibly through competitive YTHDF1/3 reader binding or RNA secondary structures that occlude YTHDF2 access. This is a directly testable hypothesis via YTHDF2 knockdown.
+**The integrin paradox:** All six detected integrin subunits (ITGB1, ITGA1, ITGA2, ITGA3, ITGAV, ITGB5) carry significant 3'UTR m6A burden (84–100% 3'UTR fraction). Under YTHDF2-mediated decay, this predicts mRNA destabilisation and polyA shortening. Yet Project 1 shows that five of these integrins maintain above-average polyA tail lengths. This contradiction — high 3'UTR m6A burden combined with mRNA stabilisation, suggests that integrin mRNAs actively resist m6A-mediated decay, possibly through competitive YTHDF1/3 reader binding or RNA secondary structures that occlude YTHDF2 access. This is a directly testable hypothesis via YTHDF2 knockdown.
  
 **Cross-layer independence:** The non-significant Pearson correlation between m6A site density and polyA tail length (r = 0.109, p = 0.372, n = 69 genes) indicates that these two post-transcriptional regulatory layers operate largely independently in MDA-231. Neither layer alone is sufficient to predict transcript fate.
  
@@ -109,7 +109,7 @@ m6A is the most abundant internal modification on mammalian mRNA. Its functional
  
 ![Integrin Combined](https://raw.githubusercontent.com/somritaghosh-1/m6a-epitranscriptomics-tnbc/main/m6A_Fig5_Integrin_Combined.png)
  
-*Three-panel figure showing m6A site distribution (left), polyA tail length from Project 1 (centre), and biological interpretation (right) for all detected integrin subunits. All integrins carry predominantly 3'UTR m6A sites that predict YTHDF2-mediated decay, yet five of six maintain above-average polyA tail lengths — suggesting active resistance to m6A-mediated destabilisation.*
+*Three-panel figure showing m6A site distribution (left), polyA tail length from Project 1 (centre), and biological interpretation (right) for all detected integrin subunits. All integrins carry predominantly 3'UTR m6A sites that predict YTHDF2-mediated decay, yet five of six maintain above-average polyA tail lengths, suggesting active resistance to m6A-mediated destabilisation.*
  
 <br>
  
